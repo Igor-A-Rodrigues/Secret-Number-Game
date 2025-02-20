@@ -6,6 +6,7 @@ let attempts = 1
 function exibirTextoNaTela(tag, texto) {
     let campo = document.querySelector(tag);
     campo.innerHTML = texto;
+}
 
 function firstGreetings(){
     exibirTextoNaTela('h1', 'The secret number game');
